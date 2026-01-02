@@ -1,0 +1,9 @@
+# Power BI
+*.pbix
+
+# Excel temporário
+~$*.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
