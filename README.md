@@ -168,6 +168,19 @@ Comparação entre dias úteis e fins de semana e análise da relação entre ho
 **Descrição:**  
 Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
 
+## 🔗 Links clicáveis
+
+📂 **Power BI Project (.PBIR):**  
+[Ver projeto Power BI](powerbi/definition.pbir)
+
+📘 **Storytelling do Projeto:**  
+[Leia o storytelling completo](docs/storytelling.md)
+
+🖼️ **Imagens do Dashboard:**  
+[Ver todos os prints](images/)
+
+🔗 **Post no LinkedIn:**  
+[Veja o post completo no LinkedIn](https://www.linkedin.com/in/mauriciodasilvabarros/)
 
 ## 👤 Autor    
   Maurício Barros    
@@ -175,6 +188,7 @@ Visão detalhada por data com formatação condicional e observações, permitin
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
 
