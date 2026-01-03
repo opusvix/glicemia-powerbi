@@ -119,10 +119,46 @@ AVERAGEX (
   
   - Análises preditivas futuras
 
+---
+
+## 🖼️ Prints do Dashboard
+
+### 🔹 Visão Geral
+![Visão Geral](images/dash_visao_geral.png)
+
+**Descrição:**  
+Evolução da glicemia em jejum ao longo do tempo, indicadores principais e média móvel para identificação de tendências.
+
+---
+
+### 🔹 Análise por Refeição
+![Análise por Refeição](images/dash_refeicoes.png)
+
+**Descrição:**  
+Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destacando variações e padrões ao longo do dia.
+
+---
+
+### 🔹 Rotina e Comportamento
+![Rotina e Comportamento](images/dash_rotina.png)
+
+**Descrição:**  
+Comparação entre dias úteis e fins de semana e análise da relação entre horário das refeições e níveis glicêmicos.
+
+---
+
+### 🔹 Detalhamento Diário
+![Detalhamento Diário](images/dash_detalhamento.png)
+
+**Descrição:**  
+Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
+
+
 ## 👤 Autor    
   Maurício Barros    
   Analista de Dados    
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
