@@ -191,8 +191,23 @@ Essa padronização permite rápida identificação de padrões e situações cr
 
 ## 🔗 Links clicáveis
 
+## 📊 Relatório Power BI (PBIR)
+
+Este projeto utiliza o formato **PBIR (Power BI Project)**, que permite versionamento e controle fino dos artefatos do relatório.
+
+📁 Pasta do relatório:
+- `Monitoramento e Análise de Glicemia com Power BI.Report`
+
+📁 Modelo semântico:
+- `Monitoramento e Análise de Glicemia com Power BI.SemanticModel`
+
+ℹ️ Para abrir o projeto:
+1. Clone o repositório
+2. Abra a pasta raiz no **Power BI Desktop**
+3. O relatório será carregado automaticamente
+
 📂 **Power BI Project (.PBIR):**  
-[Ver projeto Power BI](powerbi/definition.pbir)
+🔗 [Estrutura do Relatório Power BI (PBIR)](powerbi/Monitoramento%20e%20Análise%20de%20Glicemia%20com%20Power%20BI.Report)
 
 📘 **Storytelling do Projeto:**  
 [Leia o storytelling completo](docs/storytelling.md)
@@ -209,6 +224,7 @@ Essa padronização permite rápida identificação de padrões e situações cr
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
 
