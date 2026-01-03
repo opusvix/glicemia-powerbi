@@ -1,7 +1,12 @@
 <p align="center">
   <img src="images/Glicemia.png" alt="Monitoramento de Glicemia" width="600"/>
 </p>
-# 📊 Monitoramento e Análise de Glicemia com Power BI
+
+<h1 align="center">📊 Monitoramento e Análise de Glicemia com Power BI</h1>
+
+<p align="center">
+Projeto de análise de dados voltado ao monitoramento glicêmico, utilizando Power BI, DAX e boas práticas de visualização para apoiar decisões em saúde.
+</p>
 
 ## 📌 Visão Geral
 Este projeto tem como objetivo analisar dados de glicemia coletados diariamente, explorando padrões temporais, comportamento por refeição, impacto da rotina e variações entre dias úteis e fins de semana.
@@ -204,6 +209,7 @@ Essa padronização permite rápida identificação de padrões e situações cr
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
 
