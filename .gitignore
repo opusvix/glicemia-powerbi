@@ -8,5 +8,5 @@
 .DS_Store
 Thumbs.db
 
-# Power BI Project
+# Power BI Project cache
 .pbip.cache/
