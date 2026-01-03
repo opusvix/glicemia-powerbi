@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="images/Glicemia.png" alt="Monitoramento de Glicemia" width="600"/>
+</p>
 # 📊 Monitoramento e Análise de Glicemia com Power BI
 
 ## 📌 Visão Geral
@@ -201,6 +204,7 @@ Essa padronização permite rápida identificação de padrões e situações cr
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
 
