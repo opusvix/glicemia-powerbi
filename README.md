@@ -16,6 +16,21 @@ O dashboard foi desenvolvido no **Power BI**, utilizando boas práticas de **mod
 
 ---
 
+## 🧩 Power BI Project (.PBIR)
+
+Este projeto utiliza o formato **Power BI Project (.pbir)**, que permite versionamento eficiente e colaboração via Git.
+
+### Vantagens:
+- Versionamento de medidas DAX
+- Histórico claro de alterações
+- Melhor colaboração entre analistas
+- Alinhado a boas práticas modernas de BI
+
+### Requisitos:
+- Power BI Desktop atualizado para abrir o projeto
+
+---
+
 ## 🗂️ Fonte dos Dados
 - Dados reais de medições de glicemia
 - Coleta diária
@@ -62,7 +77,9 @@ AVERAGEX (
         3
     )
 )
+
 ````
+
 ## 📊 Estrutura do Dashboard
 
 🔹 Página 1 — Visão Geral
@@ -119,10 +136,73 @@ AVERAGEX (
   
   - Análises preditivas futuras
 
+---
+
+## 🖼️ Prints do Dashboard
+
+### 🔹 Visão Geral
+![Visão Geral](images/dash_visao_geral.png)
+
+**Descrição:**  
+Evolução da glicemia em jejum ao longo do tempo, indicadores principais e média móvel para identificação de tendências.
+
+---
+
+### 🔹 Análise por Refeição
+![Análise por Refeição](images/dash_refeicoes.png)
+
+**Descrição:**  
+Comparação entre glicemia em jejum, antes do almoço e antes do jantar, destacando variações e padrões ao longo do dia.
+
+---
+
+### 🔹 Rotina e Comportamento
+![Rotina e Comportamento](images/dash_rotina.png)
+
+**Descrição:**  
+Comparação entre dias úteis e fins de semana e análise da relação entre horário das refeições e níveis glicêmicos.
+
+---
+
+### 🔹 Detalhamento Diário
+![Detalhamento Diário](images/dash_detalhamento.png)
+
+**Descrição:**  
+Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
+
+### 🎨 Legenda da Formatação Condicional
+
+A tabela **Detalhamento Diário** utiliza cores para facilitar a leitura dos níveis de glicemia:
+
+- 🟢 **Aceitável:** < 125 mg/dL  
+- 🟡 **Atenção:** < 180 mg/dL  
+- 🔴 **Alerta:** acima de 180 mg/dL  
+
+Essa padronização permite rápida identificação de padrões e situações críticas.
+
+
+## 🔗 Links clicáveis
+
+📂 **Power BI Project (.PBIR):**  
+[Ver projeto Power BI](powerbi/definition.pbir)
+
+📘 **Storytelling do Projeto:**  
+[Leia o storytelling completo](docs/storytelling.md)
+
+🖼️ **Imagens do Dashboard:**  
+[Ver todos os prints](images/)
+
+🔗 **Post no LinkedIn:**  
+[Veja o post completo no LinkedIn](https://www.linkedin.com/in/mauriciodasilvabarros/)
+
 ## 👤 Autor    
   Maurício Barros    
   Analista de Dados    
   🔗 GitHub: https://github.com/opusvix
 
   
+
+
+
+
 
