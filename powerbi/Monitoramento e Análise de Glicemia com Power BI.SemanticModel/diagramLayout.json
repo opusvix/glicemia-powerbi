@@ -1,0 +1,60 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 348,
+            "y": 0
+          },
+          "nodeIndex": "fGlicemia",
+          "nodeLineageTag": "a173581c-0087-4544-a424-4201ae74f154",
+          "size": {
+            "height": 320,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "657517d3-ad2c-4ce6-824c-7bfabd29621a",
+          "size": {
+            "height": 315,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 636,
+            "y": 0
+          },
+          "nodeIndex": "_MedidasDAX",
+          "size": {
+            "height": 406,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": true,
+      "showExtraHeaderInfo": true,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

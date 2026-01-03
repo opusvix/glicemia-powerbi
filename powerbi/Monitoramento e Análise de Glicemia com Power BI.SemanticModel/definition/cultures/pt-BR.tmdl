@@ -1,0 +1,1770 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "f_glicemia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f glicemia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fGlicemia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_glicemia.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_glicemia.diasem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "diasem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "diasem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_glicemia.jejum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "jejum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jejum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Índice em Jejum": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "f_glicemia.hora_jejum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "horaJejum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora jejum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horaJejum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Hora da Coleta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_glicemia.pre_almoco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "preAlmoco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pre almoco": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preAlmoco": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Índice no Pré-Almoço": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "f_glicemia.hora_pre_almoco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "horaPreAlmoco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora pre almoco": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horaPreAlmoco": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Hora da Coleta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_glicemia.pre_janta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "preJanta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pre janta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preJanta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Índice no Pré-Janta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "f_glicemia.hora_pre_janta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "horaPreJanta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora pre janta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horaPreJanta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Hora da Coleta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_glicemia.observacoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fGlicemia",
+			          "ConceptualProperty": "observacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "observacoe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Observações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dCalendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Data": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.nome_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "NomeMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NomeMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.ano_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "AnoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnoMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "DiaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.nome_dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "NomeDiaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NomeDiaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Dia da Semana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_MedidasDAX": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.media_glicemia_jejum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Media Glicemia Jejum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media glicemia jejum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Jejum": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Média Jejum": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.media_glicemia_almoço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Media Glicemia Almoço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media glicemia almoço": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pré-Almoço": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Média Pré-Almoço": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.media_glicemia_jantar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Media Glicemia Jantar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media glicemia jantar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pré-Jantar": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Média Pré-Jantar": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.media_geral_glicemia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Media Geral Glicemia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media geral glicemia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Média Geral": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.media_movel_jejum_7d": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Media Movel Jejum 7d"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media movel jejum 7d": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.glicemia_max_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Glicemia Max Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "glicemia max dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "glicemia maximum dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX.faixa_glicemia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_MedidasDAX",
+			          "ConceptualProperty": "Faixa Glicemia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa glicemia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.fim_de_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "FimDeSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fim de semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FimDeSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Classificação": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "d_calendario_has_f_glicemia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_f_glicemias"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_d_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_d_calendarios"
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX_has_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "_MedidasDAX"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__MedidasDAX": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX"
+			          }
+			        },
+			        "entity__MedidasDAX.medida": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__MedidasDAX"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_MedidasDAXes_have_medida"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_fim_de_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.fim_de_semana": {
+			          "Target": {
+			            "Entity": "d_calendario.fim_de_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.fim_de_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_fim_de_semanas"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_faixa_glicemia": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.faixa_glicemia": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.faixa_glicemia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.faixa_glicemia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_faixa_glicemia"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_glicemia_max_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.glicemia_max_dia": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.glicemia_max_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.glicemia_max_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_glicemia_max_dia"
+			        }
+			      ]
+			    },
+			    "entity__MedidasDAX_has_media_movel_jejum_7d": {
+			      "Binding": {
+			        "ConceptualEntity": "_MedidasDAX"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__MedidasDAX": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX"
+			          }
+			        },
+			        "entity__MedidasDAX.media_movel_jejum_7d": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.media_movel_jejum_7d"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__MedidasDAX"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.media_movel_jejum_7d"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_MedidasDAXes_have_media_movel_jejum_7d"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_media_geral_glicemia": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.media_geral_glicemia": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.media_geral_glicemia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.media_geral_glicemia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_media_geral_glicemia"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_media_glicemia_jantar": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.media_glicemia_jantar": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.media_glicemia_jantar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.media_glicemia_jantar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_media_glicemia_jantar"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_media_glicemia_almoço": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.media_glicemia_almoço": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.media_glicemia_almoço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.media_glicemia_almoço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_media_glicemia_almoço"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_entity__MedidasDAX_media_glicemia_jejum": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "entity__MedidasDAX.media_glicemia_jejum": {
+			          "Target": {
+			            "Entity": "entity__MedidasDAX.media_glicemia_jejum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "entity__MedidasDAX.media_glicemia_jejum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_media_glicemia_jejum"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_nome_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.nome_dia_semana": {
+			          "Target": {
+			            "Entity": "d_calendario.nome_dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.nome_dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_nome_dia_semanas"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.dia_semana": {
+			          "Target": {
+			            "Entity": "d_calendario.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_dias"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano_me": {
+			          "Target": {
+			            "Entity": "d_calendario.ano_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_ano_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_nome_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.nome_me": {
+			          "Target": {
+			            "Entity": "d_calendario.nome_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.nome_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_nome_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.me": {
+			          "Target": {
+			            "Entity": "d_calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.date": {
+			          "Target": {
+			            "Entity": "d_calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_observacoe": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.observacoe": {
+			          "Target": {
+			            "Entity": "f_glicemia.observacoe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.observacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_observacoes"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_hora_pre_janta": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.hora_pre_janta": {
+			          "Target": {
+			            "Entity": "f_glicemia.hora_pre_janta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.hora_pre_janta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_hora_pre_jantas"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_pre_janta": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.pre_janta": {
+			          "Target": {
+			            "Entity": "f_glicemia.pre_janta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.pre_janta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_pre_jantas"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_hora_pre_almoco": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.hora_pre_almoco": {
+			          "Target": {
+			            "Entity": "f_glicemia.hora_pre_almoco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.hora_pre_almoco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_hora_pre_almocos"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_pre_almoco": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.pre_almoco": {
+			          "Target": {
+			            "Entity": "f_glicemia.pre_almoco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.pre_almoco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_pre_almocos"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_hora_jejum": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.hora_jejum": {
+			          "Target": {
+			            "Entity": "f_glicemia.hora_jejum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.hora_jejum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_hora_jejums"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_jejum": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.jejum": {
+			          "Target": {
+			            "Entity": "f_glicemia.jejum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.jejum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_jejums"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_diasem": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.diasem": {
+			          "Target": {
+			            "Entity": "f_glicemia.diasem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.diasem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_diasems"
+			        }
+			      ]
+			    },
+			    "f_glicemia_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fGlicemia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_glicemia": {
+			          "Target": {
+			            "Entity": "f_glicemia"
+			          }
+			        },
+			        "f_glicemia.data": {
+			          "Target": {
+			            "Entity": "f_glicemia.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_glicemia"
+			            },
+			            "Object": {
+			              "Role": "f_glicemia.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_glicemias_have_data"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,166 @@
+table fGlicemia
+	lineageTag: a173581c-0087-4544-a424-4201ae74f154
+
+	column data
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: ed59fb79-67d4-4c34-88f3-eaa4a3c241ed
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column diasem
+		dataType: int64
+		formatString: 0
+		lineageTag: c3f0bf21-ce69-4ef5-b2f1-f6481442f985
+		summarizeBy: sum
+		sourceColumn: diasem
+
+		annotation SummarizationSetBy = Automatic
+
+	column jejum
+		dataType: int64
+		formatString: 0
+		lineageTag: fa3ade5c-734a-455f-81cb-2708b08a7081
+		summarizeBy: sum
+		sourceColumn: jejum
+
+		annotation SummarizationSetBy = Automatic
+
+	column horaJejum
+		dataType: dateTime
+		formatString: Short Time
+		lineageTag: e869f06e-d5b8-433c-81bb-3bfb98e9c420
+		summarizeBy: none
+		sourceColumn: horaJejum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column preAlmoco
+		dataType: int64
+		formatString: 0
+		lineageTag: 1dcc35a5-ae9e-4627-aac4-a0d4b2cf9ffa
+		summarizeBy: sum
+		sourceColumn: preAlmoco
+
+		annotation SummarizationSetBy = Automatic
+
+	column horaPreAlmoco
+		dataType: dateTime
+		formatString: Short Time
+		lineageTag: 7d6f43b6-f101-4649-ac37-4ef2fa2fce8a
+		summarizeBy: none
+		sourceColumn: horaPreAlmoco
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column preJanta
+		dataType: int64
+		formatString: 0
+		lineageTag: 43c6f579-8ced-44b4-a0e5-c79c50dbe3eb
+		summarizeBy: sum
+		sourceColumn: preJanta
+
+		annotation SummarizationSetBy = Automatic
+
+	column horaPreJanta
+		dataType: dateTime
+		formatString: Short Time
+		lineageTag: 0f613d2f-69ca-418b-a6a1-3243cb3201d2
+		summarizeBy: none
+		sourceColumn: horaPreJanta
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column observacoes
+		dataType: string
+		lineageTag: fdec2690-5eda-4bc1-9f28-f7a75b2549d6
+		summarizeBy: none
+		sourceColumn: observacoes
+
+		annotation SummarizationSetBy = Automatic
+
+	column insulinaJejum
+		dataType: string
+		lineageTag: 3d448a26-774c-43c4-a03a-2c76ea64838b
+		summarizeBy: none
+		sourceColumn: insulinaJejum
+
+		annotation SummarizationSetBy = Automatic
+
+	column insulinaPreAlmoco
+		dataType: string
+		lineageTag: 86326f29-d540-4494-bbf6-ea62eb4a43fb
+		summarizeBy: none
+		sourceColumn: insulinaPreAlmoco
+
+		annotation SummarizationSetBy = Automatic
+
+	column insulinaPreJanta
+		dataType: string
+		lineageTag: fe3543e1-fd21-4023-8c48-6a6800ea301c
+		summarizeBy: none
+		sourceColumn: insulinaPreJanta
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hora Jantar (decimal)' = ```
+			
+			HOUR ( fGlicemia[horaPreJanta] )
+			+ MINUTE ( fGlicemia[horaPreJanta] ) / 60
+			
+			```
+		formatString: 0.00
+		lineageTag: 74dced5d-9578-4d0c-a60f-055dacb3a72c
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hora Jejum (decimal)' = ```
+			
+			HOUR ( fGlicemia[horaJejum] )
+			+ MINUTE ( fGlicemia[horaJejum] ) / 60
+			
+			```
+		formatString: 0.00
+		lineageTag: ff70f034-19dd-4ddd-a24c-4a73fc825b27
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hora Almoco (decimal)' = ```
+			
+			HOUR ( fGlicemia[horaPreAlmoco] )
+			+ MINUTE ( fGlicemia[horaPreAlmoco] ) / 60
+			
+			```
+		formatString: 0.00
+		lineageTag: 5c78897b-425c-48f9-ad73-c379a546d8ca
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fGlicemia = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("D:\OneDrive\Área de Trabalho\Glicemia.xlsx"), null, true),
+				    tGlicemia_Table = Fonte{[Item="tGlicemia",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(tGlicemia_Table,{{"data", type date}, {"diasem", Int64.Type}, {"jejum", Int64.Type}, {"horaJejum", type time}, {"preAlmoco", Int64.Type}, {"horaPreAlmoco", type time}, {"preJanta", Int64.Type}, {"horaPreJanta", type time}, {"observacoes", type text}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado", each true)
+				in
+				    #"Linhas Filtradas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

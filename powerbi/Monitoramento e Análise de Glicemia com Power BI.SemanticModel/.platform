@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Monitoramento e Análise de Glicemia com Power BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "17aa15d7-2cad-4ebc-afe2-9a4ac462c145"
+  }
+}

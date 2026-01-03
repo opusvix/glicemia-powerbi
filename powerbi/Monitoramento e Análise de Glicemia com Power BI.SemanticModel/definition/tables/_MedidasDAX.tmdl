@@ -1,0 +1,136 @@
+table _MedidasDAX
+	lineageTag: 06823f11-272e-4720-bee2-82a789c583fa
+
+	measure 'Media Glicemia Jejum' = ```
+			
+			AVERAGE ( fGlicemia[jejum] )
+			
+			
+			
+			```
+		formatString: 0
+		displayFolder: Médias por Refeição
+		lineageTag: a71a57d7-a19d-4732-a5ce-2d23c2672185
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Media Glicemia Almoço' = ```
+			
+			AVERAGE ( fGlicemia[preAlmoco] )
+			
+			```
+		formatString: 0
+		displayFolder: Médias por Refeição
+		lineageTag: 272fee98-d52c-4abc-aef1-8192211fdfdf
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Media Glicemia Jantar' =
+			
+			AVERAGE ( fGlicemia[preJanta] )
+		formatString: 0
+		displayFolder: Médias por Refeição
+		lineageTag: 918acc96-d28a-42a9-b1d4-5272248094ee
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Media Geral Glicemia' = ```
+			
+			AVERAGEX (
+			    fGlicemia,
+			    DIVIDE (
+			        fGlicemia[jejum]
+			        + fGlicemia[preAlmoco]
+			        + fGlicemia[preJanta],
+			        3
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Médias por Refeição
+		lineageTag: 7eb40814-94d9-4f2d-a415-1c10b1bec619
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Media Movel Jejum 7d' = ```
+			
+			AVERAGEX (
+			    DATESINPERIOD (
+			        dCalendario[Date],
+			        MAX ( dCalendario[Date] ),
+			        -7,
+			        DAY
+			    ),
+			    [Media Glicemia Jejum]
+			)
+			
+			```
+		displayFolder: Médias por Refeição
+		lineageTag: 05f1516c-9921-46c6-99ac-166f792020ac
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Glicemia Max Dia' = ```
+			
+			MAXX (
+			    fGlicemia,
+			    MAX (
+			        fGlicemia[jejum],
+			        MAX (
+			            fGlicemia[preAlmoco],
+			            fGlicemia[preJanta]
+			        )
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Médias por Refeição
+		lineageTag: 68796932-39e4-43d5-a40e-b0ce94ad651c
+
+	measure 'Faixa Glicemia' = ```
+			
+			SWITCH (
+			    TRUE (),
+			    [Media Geral Glicemia] <= 99, "Normal",
+			    [Media Geral Glicemia] <= 125, "Atenção",
+			    "Alta"
+			)
+			
+			```
+		displayFolder: Médias por Refeição
+		lineageTag: b1da9bbd-39f4-481c-9458-122a393e1e79
+
+	measure 'Diferença % FDS x Útil' = ```
+			
+			VAR MediaFDS =
+			    CALCULATE (
+			        [Media Geral Glicemia],
+			        dCalendario[FimDeSemana] = "Fim de semana"
+			    )
+			VAR MediaUtil =
+			    CALCULATE (
+			        [Media Geral Glicemia],
+			        dCalendario[FimDeSemana] = "Dia útil"
+			    )
+			RETURN
+			DIVIDE ( MediaFDS - MediaUtil, MediaUtil )
+			
+			```
+		formatString: 0%;-0%;0%
+		displayFolder: Médias por Refeição
+		lineageTag: 33bd09a9-f9d9-4c71-b406-3d2db3164cc1
+
+	partition _MedidasDAX = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
