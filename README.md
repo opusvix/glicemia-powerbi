@@ -16,6 +16,21 @@ O dashboard foi desenvolvido no **Power BI**, utilizando boas práticas de **mod
 
 ---
 
+## 🧩 Power BI Project (.PBIR)
+
+Este projeto utiliza o formato **Power BI Project (.pbir)**, que permite versionamento eficiente e colaboração via Git.
+
+### Vantagens:
+- Versionamento de medidas DAX
+- Histórico claro de alterações
+- Melhor colaboração entre analistas
+- Alinhado a boas práticas modernas de BI
+
+### Requisitos:
+- Power BI Desktop atualizado para abrir o projeto
+
+---
+
 ## 🗂️ Fonte dos Dados
 - Dados reais de medições de glicemia
 - Coleta diária
@@ -160,5 +175,6 @@ Visão detalhada por data com formatação condicional e observações, permitin
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
