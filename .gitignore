@@ -7,3 +7,6 @@
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Power BI Project
+.pbip.cache/
