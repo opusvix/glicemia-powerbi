@@ -77,7 +77,9 @@ AVERAGEX (
         3
     )
 )
+
 ````
+
 ## 📊 Estrutura do Dashboard
 
 🔹 Página 1 — Visão Geral
@@ -168,6 +170,17 @@ Comparação entre dias úteis e fins de semana e análise da relação entre ho
 **Descrição:**  
 Visão detalhada por data com formatação condicional e observações, permitindo identificar dias críticos.
 
+### 🎨 Legenda da Formatação Condicional
+
+A tabela **Detalhamento Diário** utiliza cores para facilitar a leitura dos níveis de glicemia:
+
+- 🟢 **Aceitável:** < 125 mg/dL  
+- 🟡 **Atenção:** < 180 mg/dL  
+- 🔴 **Alerta:** acima de 180 mg/dL  
+
+Essa padronização permite rápida identificação de padrões e situações críticas.
+
+
 ## 🔗 Links clicáveis
 
 📂 **Power BI Project (.PBIR):**  
@@ -188,6 +201,7 @@ Visão detalhada por data com formatação condicional e observações, permitin
   🔗 GitHub: https://github.com/opusvix
 
   
+
 
 
 
