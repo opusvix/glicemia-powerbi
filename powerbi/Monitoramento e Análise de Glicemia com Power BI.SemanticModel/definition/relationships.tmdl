@@ -1,6 +1,0 @@
-relationship ee3d77d4-7024-4829-f301-1c22676f2ed7
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: fGlicemia.data
-	toColumn: dCalendario.Date
-
